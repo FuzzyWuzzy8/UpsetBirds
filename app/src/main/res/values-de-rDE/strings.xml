@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">UpsetBirds</string>
+    <string name="topscore">"Bestes ergebnis: "</string>
+    <string name="language">Sprache</string>
+    <string name="play">Spielen!</string>
+    <string name="upset_Birds">Verärgerte Vögel</string>
+    <string name="error">"Fehler "</string>
+    <string name="message">"Hat "</string>
+</resources>

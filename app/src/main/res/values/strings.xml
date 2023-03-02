@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">UpsetBirds</string>
+    <string name="upset_Birds">Upset Birds</string>
+    <string name="play">Play!</string>
+    <string name="language">Language</string>
+    <string name="topscore">"Highest score: "</string>
+    <string name="error">"Error"</string>
+    <string name="message">"Has"</string>
+</resources>
