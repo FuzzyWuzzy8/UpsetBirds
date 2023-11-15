@@ -37,8 +37,8 @@ Upset Birds is a mobile game developed for Android using Java. The game features
 
 ## Game Screenshots
 
-![Screenshot 1](url-to-screenshot-1)
-![Screenshot 2](url-to-screenshot-2)
+![Screenshot 1](https://github.com/FuzzyWuzzy8/UpsetBirds/blob/master/screenshots/upset_birds_1.jpg)
+![Screenshot 2](https://github.com/FuzzyWuzzy8/UpsetBirds/blob/master/screenshots/upset_birds_2.jpg)
 <!-- Add more screenshots later -->
 
 ## How to Play
