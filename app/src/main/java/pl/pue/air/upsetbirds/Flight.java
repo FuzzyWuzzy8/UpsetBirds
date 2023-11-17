@@ -12,7 +12,7 @@ import static pl.pue.air.upsetbirds.GameView.screenRatioY;
 public class Flight {
 
     int toFlyBird = 0;
-    boolean isGoingUp = false;
+    boolean isGoingUp = false; //boolean default value is false. Used in GameView
     int x, y, width, height, flyCounter = 0, toFlyBirdCounter = 1;
     Bitmap flight1, flight2, birdfly1, birdfly2, birdfly3, birdfly4, birdfly5, dead;
     private GameView gameView;
