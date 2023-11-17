@@ -59,6 +59,7 @@ public class Bird {
      */
 
     //enemy bird animation
+	/*
     Bitmap getBird () {
 
         if (birdCounter == 1) {
@@ -100,6 +101,35 @@ public class Bird {
 
         return bird8;
     }
+	*/
+	Bitmap getBird() {
+    switch (birdCounter) {
+        case 1:
+            birdCounter++;
+            return bird1;
+        case 2:
+            birdCounter++;
+            return bird2;
+        case 3:
+            birdCounter++;
+            return bird3;
+        case 4:
+            birdCounter++;
+            return bird4;
+        case 5:
+            birdCounter++;
+            return bird5;
+        case 6:
+            birdCounter++;
+            return bird6;
+        case 7:
+            birdCounter++;
+            return bird7;
+        default:
+            birdCounter = 1;
+            return bird8;
+    }
+}
 
     //checking collision
     Rect CollisionFunction() {                     //if you bump into bird/fail to shoot bird = game over
