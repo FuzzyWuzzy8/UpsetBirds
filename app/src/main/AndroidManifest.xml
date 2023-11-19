@@ -18,7 +18,8 @@
         <activity
             android:name="pl.pue.air.upsetbirds.MainActivity"
             android:screenOrientation="landscape"
-            android:theme="@style/UpsetBirds.noActionBar">
+            android:theme="@style/UpsetBirds.noActionBar"
+            android:exported="true">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
