@@ -113,6 +113,36 @@ public class MainActivity extends AppCompatActivity {
         mBuilder.setSingleChoiceItems(listItems, -1, new DialogInterface.OnClickListener(){
             @Override
             public void onClick(DialogInterface dialogInterface, int i){
+                switch (i){
+                        case 0:
+            // English
+            setLocale("en");
+            recreate();
+            break;
+        case 1:
+            // Polish
+            setLocale("pl");
+            recreate();
+            break;
+        case 2:
+            // French
+            setLocale("fr");
+            recreate();
+            break;
+        case 3:
+            // German
+            setLocale("de");
+            recreate();
+            break;
+        case 4:
+            // Spanish
+            setLocale("es");
+            recreate();
+            break;                
+    }
+    dialogInterface.dismiss();   //dismiss alert dialog when language is selected            
+               
+                /* // moved to switch
                 if (i == 0){
                     //English
                     setLocale("en");
@@ -133,8 +163,9 @@ public class MainActivity extends AppCompatActivity {
                     setLocale("de");
                     recreate();
                 }
+                
                 dialogInterface.dismiss();   //dismiss alert dialog when language is selected
-
+                */
             }
         });
         AlertDialog mDialog = mBuilder.create();
