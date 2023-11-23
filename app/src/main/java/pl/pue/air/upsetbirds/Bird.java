@@ -59,7 +59,7 @@ public class Bird {
      */
 
     //enemy bird animation
-    //moved to switch
+    //moved to switch. Leave code for additional tests. 
 	/*
     Bitmap getBird () {
 
@@ -103,6 +103,7 @@ public class Bird {
         return bird8;
     }
 	*/
+	
 	Bitmap getBird() {
     switch (birdCounter) {
         case 1:
