@@ -58,7 +58,7 @@ public class Flight {
     }
 
     //bird flying animation
-    //moved to switch
+    //moved to switch. Leave code for additional tests 
     /*
     Bitmap getFlight () {
 
