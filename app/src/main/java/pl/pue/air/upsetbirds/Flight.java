@@ -58,6 +58,8 @@ public class Flight {
     }
 
     //bird flying animation
+    //moved to switch
+    /*
     Bitmap getFlight () {
 
         if (toFlyBird != 0) {
@@ -97,6 +99,43 @@ public class Flight {
 
         return flight2;
     }
+    */
+
+    Bitmap getFlight () {
+
+        if (toFlyBird != 0) {
+
+            switch (toFlyBirdCounter) {
+                case 1:
+                    toFlyBirdCounter++;
+                    return birdfly1;
+                case 2:
+                    toFlyBirdCounter++;
+                    return birdfly2;
+                case 3:
+                    toFlyBirdCounter++;
+                    return birdfly3;
+                case 4:
+                    toFlyBirdCounter++;
+                    return birdfly4;
+                default:
+                    toFlyBirdCounter = 1;
+                    toFlyBird--;
+                    gameView.newBullet();
+                    return birdfly5;
+            }
+
+        }
+
+        if (flyCounter == 0) {
+            flyCounter++;
+            return flight1;
+        }
+        flyCounter--;
+
+        return flight2;
+    }
+
 
     // https://developer.android.com/reference/android/graphics/Rect
     //checking collision

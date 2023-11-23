@@ -59,6 +59,7 @@ public class Bird {
      */
 
     //enemy bird animation
+    //moved to switch
 	/*
     Bitmap getBird () {
 
